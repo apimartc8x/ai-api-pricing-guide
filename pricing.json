@@ -1,0 +1,14 @@
+{
+  "repo": "ai-api-pricing-guide",
+  "model": null,
+  "route": "gateway",
+  "variant": "A 通用功能",
+  "snapshot": "2026-09-28",
+  "unit": "mixed",
+  "tiers": {
+    "GPT Image 2.5 (1K)": 0.0085,
+    "Seedance 2.0 Mini (480P/sec)": 0.01056,
+    "Qwen3.7 Flash (per M input)": 0.0228568
+  },
+  "source": "https://go.apimart.ai/k-94bf72"
+}
