@@ -1,19 +1,29 @@
 {
-  "id": "grok-imagine-image",
+  "id": "gemini-3-pro-image-preview",
+  "alias": "nano-banana-pro-ext",
+  "official": "gemini-3-pro-image-preview-official",
   "source": "https://apimart.ai/en/pricing",
-  "extracted_at": "2026-10-12T10:24:11Z",
+  "extracted_at": "2026-10-13T06:38:23Z",
   "prices": {
-    "1K": {
-      "list": 0.02,
-      "effective": 0.016
+    "default": {
+      "list": 0.0375,
+      "effective": 0.03
     },
-    "2K": {
-      "list": 0.02,
-      "effective": 0.016
+    "4K": {
+      "list": 0.05,
+      "effective": 0.04
     }
   },
-  "rates": {},
-  "unit": "usd_per_image",
-  "hook": "from $0.016 per image (1K $0.016 · 2K $0.016)",
-  "model_page": "https://apimart.ai/model/grok-image"
+  "official_prices": {
+    "per_million_tokens": {
+      "effective": {
+        "text_input": 1.6,
+        "cached_text_input": 0,
+        "image_input": 1.6,
+        "cached_image_input": 0,
+        "text_output": 9.6,
+        "image_output": 96
+      }
+    }
+  }
 }
